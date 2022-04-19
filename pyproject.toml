@@ -17,7 +17,7 @@ matplotlib = "^3.5.1"
 httpstan = [
     # I had to touch the below file to make sure it existed in order to run this on a Mac.
     { path = "httpstan/dist/httpstan-4.6.1-cp39-cp39-manylinux_2_23_x86_64.whl", markers = "sys_platform == 'linux'" },
-    { path = "httpstan/dist/httpstan-4.6.1-cp39-cp39-macosx_10_15_x86_64.whl", markers = "sys_platform == 'darwin'" }
+    # { path = "httpstan/dist/httpstan-4.6.1-cp39-cp39-macosx_10_15_x86_64.whl", markers = "sys_platform == 'darwin'" }
 ]
 # After install httpstan, I then was able to successfully install pystan.
 pystan = "^3.3.0"
@@ -25,6 +25,7 @@ pystan = "^3.3.0"
 # https://discourse.mc-stan.org/t/pystan-3-beta-4-released/18938/3
 nest-asyncio = "^1.5.4"
 arviz = "^0.11.4"
+altair = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.7.0"
