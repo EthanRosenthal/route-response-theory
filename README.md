@@ -1,4 +1,6 @@
-# Bayesian Rock Climbing
+# Route Response Theory
+
+A small companion repo to the blog post [Bayesian Rock Climbing Rankings](https://www.ethanrosenthal.com/2022/04/15/bayesian-rock-climbing/)
 
 The blog post is in `post.ipynb`.
 
